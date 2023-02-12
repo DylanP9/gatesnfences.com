@@ -32,6 +32,8 @@ h1 {
 
 .quote:hover {
     color: grey;
+    font-size: 21px;
+    margin-right: 44px;
 }
 
 form {
@@ -49,49 +51,58 @@ body {
 
 /* NAV BAR */
 
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    margin: 20px;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding-right: 198px;
+    padding-left: 198px;
+    list-style-type: none;
+}
+
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #333;
-}
-
-.nav li {
-    float: left;
+    width: 1850px;
 }
 
 .nav li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding-right: 11%;
-    padding-left: 11%;
     text-decoration: none;
     font-size: 25px;
 }
 
 .nav li a:hover {
     background-color: #111;
+    font-size: 24px;
 }
 
 /* SLIDESHOW */
 
 /* Slideshow container */
-/* .slideshow-container {
+.slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-} */
+}
 
 /* Hide the images by default */
-/* .mySlides {
+.mySlides {
     display: none;
-} */
+}
 
 
 /* The dots/bullets/indicators */
-/* .dot {
+.dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -103,23 +114,23 @@ body {
 
 .active, .dot:hover {
     background-color: #717171;
-} */
+}
 
 /* Fading animation */
-/* .fade {
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
 }
 
 @keyframes fade {
     from {
-        opacity: .4;
+        opacity: .9;
     }
 
     to {
         opacity: 1
     }
-} */
+}
 
 /* FOOTER */
 /* #footer {
