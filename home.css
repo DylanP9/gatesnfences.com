@@ -16,10 +16,12 @@ form {
     height: 80px;
     float: left;
     margin-right: 25px;
+    margin-left: 20px;
 }
 
 h1 {
-    margin-right: 1039px;
+    margin-right: 989px;
+    font-family: ;
 }
 
 .quote {
@@ -55,6 +57,7 @@ body {
     overflow: hidden;
     background-color: #333;
     margin: 20px;
+    border-radius: 5px;
 }
 
 .nav a {
@@ -63,6 +66,8 @@ body {
     text-align: center;
     padding-right: 198px;
     padding-left: 198px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     list-style-type: none;
 }
 
@@ -88,11 +93,17 @@ body {
 
 /* SLIDESHOW */
 
+/* images */
+.mySlides img {
+    border-radius: 10px;
+    height: 500px;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: 20px;
 }
 
 /* Hide the images by default */
@@ -100,12 +111,10 @@ body {
     display: none;
 }
 
-
 /* The dots/bullets/indicators */
-.dot {
+/* .dot {
     height: 15px;
     width: 15px;
-    margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -114,7 +123,7 @@ body {
 
 .active, .dot:hover {
     background-color: #717171;
-}
+} */
 
 /* Fading animation */
 .fade {
