@@ -1,0 +1,92 @@
+/* HEADER */
+
+header {
+    margin: 20px;
+}
+
+.logo,
+h1,
+.quote,
+form {
+    display: inline-block;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+h1 {
+    margin-right: 989px;
+    font-family: pacifico;
+}
+
+.quote {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.quote:hover {
+    color: grey;
+    font-size: 21px;
+    margin-right: 44px;
+}
+
+form {
+    float: inline-end;
+}
+
+/* BODY */
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+/* NAV BAR */
+
+.nav {
+    overflow: hidden;
+    background-color: black;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding-right: 198px;
+    padding-left: 198px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: #333;
+    width: 1850px;
+}
+
+.nav li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav li a:hover {
+    background-color: #111;
+    font-size: 24px;
+}
