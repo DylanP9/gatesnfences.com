@@ -5,40 +5,42 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="./home.css" />
+  <link rel="stylesheet" href="./test.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+  
   <title>Gates 'n' Fences</title>
 </head>
 
 <body>
 
+
   <header>
-
-    <a href="home.html">
-      <img src="images/logo.png" class="logo">
-    </a>
+    <div class="leftSide">
+      <img src="images/logo2.png" class="logo">
+      <h1>Gates 'n' Fences</h1>
+    </div>
     
-    <h1>Gates 'n' Fences</h1>
-
-    <a href="" class = "quote">Quick Quote</a>
-
-    <form class="example" action="action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-
+    <div class="rightSide">
+    <a href="" class = "quote">Get Quote</a>
+        <form class="search" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+        </form>
+    </div>
   </header>
 
-  <div class="nav">
+  <nav>
     <ul>
       <li><a href="home.html">Home</a> </li>
       <li><a href="gates.html">Gates</a></li>
       <li><a href="fences.html">Fences</a></li>
       <li><a href="faq.html">FAQ</a></li>
     </ul>
-  </div>
+  </nav>
 
-    <!-- Slideshow container -->
-  <div class="slideshow-container">
+   <!-- Slideshow container -->
+   <div class="slideshow-container">
   
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
@@ -63,20 +65,8 @@
   
   </div>
   <br>
-  
-  <!-- The dots/circles -->
-  <!-- <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentslide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-  </div> -->
-  
-  <script>
 
-    // function currentSlide(n){
-    //   showSlides(slideIndex =n);
-    // }
+  <script>
 
     let slideIndex = 0;
       showSlides();
@@ -113,19 +103,6 @@
   AnimateTitle("Gates 'n' Fences");
   
   </script>
-
-  <!-- <footer> -->
-<!-- footer -->
-  <!-- <section id="footer">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="">ABOUT US</a></li>
-        <li><a href="">CONTACT US</a></li>
-
-      </ul>
-  </section>
-
-  </footer> -->
 
 </body>
 </html>
