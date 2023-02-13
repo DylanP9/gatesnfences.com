@@ -53,7 +53,7 @@ h1{
 /* NAVIGATION BAR */
 
 nav {
-    background: linear-gradient(180deg, #171717, #353535);
+    background: linear-gradient(180deg, rgb(23, 23, 23), rgb(53, 53, 53));
 
     overflow: hidden;
     margin: 0%;
@@ -67,7 +67,6 @@ nav ul {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    /* display: flex; */
     flex-direction: row;
 }
 
@@ -90,8 +89,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #F2F2F2; /*Light Gray*/
-    color: black;
+    background: linear-gradient(180deg, rgba(23, 23, 23, 0.5), rgba(53, 53, 53, 0.5));
+    color: #c87819;
 }
 
 /* SLIDESHOW */

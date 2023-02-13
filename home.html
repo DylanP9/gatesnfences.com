@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="./test.css" />
+  <link rel="stylesheet" href="./home.css" />
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
-  
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1030537124329570305/1074789005822001295/improooveed.png"/>
   <title>Gates 'n' Fences</title>
 </head>
 
@@ -62,6 +62,11 @@
       <div class="numbertext"></div>
       <img src="images/gate2.jpg" style="width:100%">
     </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="https://cdn.discordapp.com/attachments/1030537124329570305/1074789618374946937/zoom.png" style="width:100%">
+    </div>
   
   </div>
   <br>
@@ -78,9 +83,19 @@
       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1 }
-      slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
+
+    if (slideIndex > slides.length) { 
+      slideIndex = 1 
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    if (slideIndex == 5) { 
+      setTimeout(showSlides, 100); 
+    }else{
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+    
   }
      
 
