@@ -1,8 +1,4 @@
 /* HEADER */
-body {
-     margin: 0%;
-     background: linear-gradient(180deg, #353535, #404040);
-}
 
 header {
      margin: 0%;
@@ -53,7 +49,7 @@ h1{
 /* NAVIGATION BAR */
 
 nav {
-    background: linear-gradient(180deg, rgb(23, 23, 23), rgb(53, 53, 53));
+    background: linear-gradient(180deg, #171717, #353535);
 
     overflow: hidden;
     margin: 0%;
@@ -78,19 +74,27 @@ nav li {
 
 nav a {
     display: block;
-    color: #FFF; /*White*/
+    color: #FFF;
     font-size: 16px;
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 214.4px;
-    padding-right: 214.4px;
+    padding-left: 211px;
+    padding-right: 211px;
     text-decoration: none;
     font-family:  Inter;
 }
 
 nav a:hover {
-    background: linear-gradient(180deg, rgba(23, 23, 23, 0.5), rgba(53, 53, 53, 0.5));
+    background-color: ;
     color: #c87819;
+    font-size: 17px;
+}
+
+/* BODY */
+
+body {
+    margin: 0%;
+    background: #353535;
 }
 
 /* SLIDESHOW */
@@ -106,7 +110,9 @@ nav a:hover {
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin-left: 20px;
+    margin-top: 100px;
+    float: left;
 }
 
 /* Hide the images by default */
@@ -129,4 +135,26 @@ nav a:hover {
     to {
         opacity: 1
     }
+}
+
+/* REVIEW BOX */
+
+.review {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    background-color: white;
+    float: right;
+    margin-right: 350px;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.review p {
+    color: black;
+    font-family: Inter;
+    font-size: 30px;
+    float: left;
+    margin-left: 5px;
 }
