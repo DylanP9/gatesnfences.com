@@ -39,12 +39,9 @@
   </nav>
 
   <div class="review">
-
     <p>'Horrible Gates! Horrible Customer Service! Wouldn't even recommend to my worst enemies.'</p>
-    <div class="review2">
     <img src="images/tripadvisorlogo.png" alt="tripadvisor" class="tplogo">
     <img src="images/stars.png" alt="stars" class="stars">
-    </div>
   </div>
   
 
@@ -53,28 +50,19 @@
   
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-      <div class="numbertext"></div>
       <img src="images/fence1.jpg" alt="fence">
     </div>
   
     <div class="mySlides fade">
-      <div class="numbertext"></div>
       <img src="images/fence2.jpg" alt="fence">
     </div>
   
     <div class="mySlides fade">
-      <div class="numbertext"></div>
       <img src="images/gate1.jpg" alt="gate">
     </div>
   
     <div class="mySlides fade">
-      <div class="numbertext"></div>
       <img src="images/gate2.jpg" alt="gate">
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="https://cdn.discordapp.com/attachments/1030537124329570305/1074789618374946937/zoom.png" alt="bora bora" style="width:100%">
     </div>
   
   </div>
@@ -98,15 +86,8 @@
     }
 
     slides[slideIndex - 1].style.display = "block";
-
-    if (slideIndex == 5) { 
-      setTimeout(showSlides, 100); 
-    }else{
-      setTimeout(showSlides, 3000); // Change image every 3 seconds
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
-    
-  }
-     
 
   function recursiveAnimateTitle(string){
     let firstLetter = string[0];
