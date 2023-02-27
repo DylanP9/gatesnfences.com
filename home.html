@@ -6,108 +6,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="./home.css" />
+  <link rel="stylesheet" href="./nav.css" />
+
+
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1030537124329570305/1074789005822001295/improooveed.png"/>
   <title>Gates 'n' Fences</title>
+
+  <script>
+
+    function recursiveAnimateTitle(string){
+      let firstLetter = string[0];
+      let title = document.querySelector('title');
+      title.innerHTML += firstLetter;
+      if (string.length > 1) {
+        setTimeout(function() {
+          recursiveAnimateTitle(string.substring(1));
+        }, 100);
+      }
+    }
+  
+    function AnimateTitle(string) {
+      document.querySelector('title').innerHTML = "";
+      recursiveAnimateTitle(string);
+    }
+  
+    AnimateTitle("Gates 'n' Fences");
+    
+    </script>
 </head>
 
 <body>
 
   <header>
-    <div class="leftSide">
-      <img src="images/logo2.png" alt="logo" class="logo">
-      <h1>Gates 'n' Fences</h1>
-    </div>
-    
-    <div class="rightSide">
-    <a href="" class = "quote">Get Quote</a>
-        <form class="search" action="action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-        </form>
-    </div>
-  </header>
 
-  <nav>
+    <img src="images/logo3" alt="logo" class="logo">
     <ul>
       <li><a href="home.html">Home</a> </li>
       <li><a href="gates.html">Gates</a></li>
       <li><a href="fences.html">Fences</a></li>
       <li><a href="faq.html">FAQ</a></li>
+      <li><a href="" class = "quote">Get Quote</a></li>
+      <li><img src="images/search.png" class="search"></li>
     </ul>
-  </nav>
+    
+  </header>
+
+  <div class="picture-container">
+    <img src="images/picture.png" alt="picture" class="picture">
+    <div class="picture-caption">Top Brands of Gate Openers and Operators, <br> Commercial, Residential, <br>  Industrial, Swing, Slide, Rack & Pinion, Barrier</div>
+  </div>
 
   <div class="review">
-    <p>'Horrible Gates! Horrible Customer Service! Wouldn't even recommend to my worst enemies.'</p>
+    <p>'Horrible Gates!'</p>
     <img src="images/tripadvisorlogo.png" alt="tripadvisor" class="tplogo">
     <img src="images/stars.png" alt="stars" class="stars">
   </div>
-  
 
-   <!-- Slideshow container -->
-   <div class="slideshow-container">
-  
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <img src="images/fence1.jpg" alt="fence">
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="images/fence2.jpg" alt="fence">
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="images/gate1.jpg" alt="gate">
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="images/gate2.jpg" alt="gate">
-    </div>
-  
+  <div class="review2">
+    <p>'Sh*t gates!'</p>
+    <img src="images/tripadvisorlogo.png" alt="tripadvisor" class="tplogo">
+    <img src="images/stars.png" alt="stars" class="stars">
   </div>
 
+  <div class="review3">
+    <p>'great gates!'</p>
+    <img src="images/tripadvisorlogo.png" alt="tripadvisor" class="tplogo">
+    <img src="images/stars.png" alt="stars" class="stars">
+  </div>
 
-  <script>
-
-    let slideIndex = 0;
-      showSlides();
-
-    function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slideIndex++;
-
-    if (slideIndex > slides.length) { 
-      slideIndex = 1 
-    }
-
-    slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-
-  function recursiveAnimateTitle(string){
-    let firstLetter = string[0];
-    let title = document.querySelector('title');
-    title.innerHTML += firstLetter;
-    if (string.length > 1) {
-      setTimeout(function() {
-        recursiveAnimateTitle(string.substring(1));
-      }, 100);
-    }
-  }
-
-  function AnimateTitle(string) {
-    document.querySelector('title').innerHTML = "";
-    recursiveAnimateTitle(string);
-  }
-
-  AnimateTitle("Gates 'n' Fences");
-  
-  </script>
-
+  <div class="footer">
+    <p>Phone: +1 123 456 789  |  Email: info@gatesnfences.co.uk  |  Copyright © 2022 Gates 'n' Fences</p>
+  </div>
 </body>
+
+<!-- <footer>
+  <div class="contact">
+    <p>Phone: +1 123 456 789  |  Email: info@gatesnfences.co.uk  |  Copyright © 2022 Gates 'n' Fences</p>
+  </div>
+</footer> -->
+
 </html>

@@ -1,19 +1,5 @@
 /* HEADER */
 
-header {
-  margin: 0%;
-  margin-bottom: 0%;
-  display: flex;
-  justify-content: space-between;
-  background: linear-gradient(180deg, black, #171717);
-  }
-
-.logo {
-  width: 100px;
-  height: auto;
-  margin-left: 5%;
-  margin-bottom: 1%;
-}
 
 .leftSide, .rightSide {
  align-items: center;
@@ -21,9 +7,6 @@ header {
 }
 
 
-.search input {
- width: 80%;
-}
 
 h1{
   margin-left: 5%;
@@ -32,69 +15,11 @@ h1{
   color: #c87819;
 }
 
-.quote {
-  margin-right: 10%;
-  text-decoration: none;
-  color: white;
-  white-space: nowrap;
-  font-size: 150%;
-  font-family: 'Playfair Display';
-}
-
-.quote:hover {
- color: #c87819;
- font-size: 151%;
-}
-
-/* NAVIGATION BAR */
-
-nav {
- background: linear-gradient(180deg, #171717, #353535);
-
- overflow: hidden;
- margin: 0%;
- border-radius: 0px;
- margin-top: 0%;
- display: flex;
-}
-
-nav ul {
- list-style-type: none;
- padding: 0;
- margin: 0;
- overflow: hidden;
- flex-direction: row;
-}
-
-nav li {
-
- float: left;
- text-align: center;
-}
-
-nav a {
- display: block;
- color: #FFF;
- font-size: 16px;
- padding-top: 14px;
- padding-bottom: 14px;
- padding-left: 211px;
- padding-right: 211px;
- text-decoration: none;
- font-family:  Inter;
-}
-
-nav a:hover {
- background: linear-gradient(180deg, rgba(23, 23, 23, 0.5), rgba(53, 53, 53, 0.5));
- color: #c87819;
- font-size: 17px;
-}
 
 /* BODY */
 
 body {
  margin: 0%;
- background: #353535;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */

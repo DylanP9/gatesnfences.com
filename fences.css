@@ -94,5 +94,70 @@ nav a:hover {
 
 body {
    margin: 0%;
-   background: #353535;
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+   float: left;
+   width: 33.33%;
+   margin: auto;
+   padding: 0px 20px;
+   padding: 15px;
+   box-sizing: border-box;
+   margin-left: 100px;
+   margin-top: 4px;
+   }
+ 
+ /* Clear floats after image containers */
+ /* .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ .row {
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-around;
+   align-items: center;
+   
+ }
+ 
+ .column {
+   flex-basis: 28%;
+ } */
+ 
+ .sentence
+ {
+   text-align: center;
+   padding-top: 30px;
+   font-size: 3em;
+   color:whitesmoke ;
+   font-family: Pacifico;
+ }
+ 
+ .column {
+   display: flex;
+   justify-content: center;
+   margin-left: 33%;
+ }
+ 
+ .column img {
+   width: 80%;
+   height: auto;
+   margin-left: 2%;
+ }
+ 
+ .column .img1 {
+   width: 90%;
+   height: auto;
+ }
+ 
+ .sentence1 {
+   font-family: Inter;
+   font-size: 1.3em;
+   font-weight: bold;
+   text-align: center;
+   color: white;
+   margin-top: 8px;
+   }

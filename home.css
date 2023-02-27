@@ -1,108 +1,24 @@
-/* HEADER */
-
-header {
-     margin: 0%;
-     margin-bottom: 0%;
-     display: flex;
-     justify-content: space-between;
-     background: linear-gradient(180deg, black, #171717);
-     }
-
-.logo {
-     width: 100px;
-     height: auto;
-     margin-left: 5%;
-     margin-bottom: 1%;
-}
-
-.leftSide, .rightSide {
-    align-items: center;
-    display: flex;
-}
-
-.search input {
-    width: 80%;
-}
-
-h1{
-     margin-left: 5%;
-     font-family: Pacifico, fantasy, Arial, Helvetica, sans-serif;
-     white-space: nowrap;
-     color: #c87819;
-}
-
-.quote {
-     margin-right: 10%;
-     text-decoration: none;
-     color: white;
-     white-space: nowrap;
-     font-size: 150%;
-     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
-}
-
-.quote:hover {
-    color: #c87819;
-    font-size: 151%;
-}
-
-/* NAVIGATION BAR */
-
-nav {
-    background: linear-gradient(180deg, #171717, #353535);
-
-    overflow: hidden;
-    margin: 0%;
-    border-radius: 0px;
-    margin-top: 0%;
-    display: flex;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    flex-direction: row;
-}
-
-nav li {
-
-    float: left;
-    text-align: center;
-}
-
-nav a {
-    display: block;
-    color: #FFF;
-    font-size: 16px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 211px;
-    padding-right: 211px;
-    text-decoration: none;
-    font-family:  Inter, Arial, Helvetica, sans-serif;
-}
-
-nav a:hover {
-    color: #c87819;
-    font-size: 17px;
-}
-
 /* BODY */
 
 body {
     margin: 0%;
-    background: #353535;
+    background: #000317;
+}
+
+.picture {
+    width: 100%;
 }
 
 /* REVIEW */
 
-.review {
+.review, .review2, .review3 {
+    width: 33%;
+    float: left;
     margin: 0 auto;
     text-align: center;
 }
 
-.review p {
+.review, .review2, .review3 p {
    color: white;
    font-family: Inter, Arial, Helvetica, sans-serif;
    font-size: 150%;
@@ -111,47 +27,29 @@ body {
 .tplogo, .stars{
    display: block;
    height: auto;
-   width: 5%;
+   width: 10%;
    margin: 0 auto;
    text-align: center;
 }
 
-/* SLIDESHOW */
+/* picture */
 
-/* images */
-.mySlides img {
-    /* height: auto; */
-    /* width: 1860px; */
-    
+.picture-container {
+  position: relative;
 }
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin-left: 1%;
-    margin-top: 2.5%;
-    float: left;
+.picture-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, .5);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-top: 20%;
+  font-family: Inter, Arial, Helvetica, sans-serif ;
+  color: #000317;
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-    
-}
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1s;
-}
-
-@keyframes fade {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 1
-    }
-}
