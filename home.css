@@ -22,6 +22,7 @@ body {
    color: white;
    font-family: Inter, Arial, Helvetica, sans-serif;
    font-size: 150%;
+
 }
 
 .tplogo, .stars{
@@ -43,13 +44,16 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 249, 238, 0.68);
   font-family: sans-serif;
   font-size: 30px;
   color: #333;
   text-align: center;
-  margin-top: 20%;
+  padding: 20px;
+  margin-top: 19%;
   font-family: Inter, Arial, Helvetica, sans-serif ;
   color: #000317;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
+
 }
 
