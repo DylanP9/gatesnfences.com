@@ -4,6 +4,7 @@ header {
     background: #000317;
     display: flex;
     justify-content: space-between;
+    
 }
 
 header ul {
@@ -53,32 +54,18 @@ header a:hover {
     text-align: center;
     background-color:#000317;
 }
-.footerOther{
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color:#000317;
+
+.footerOther {
    color: #FFF;
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   background-color: #000317;
  }
+ 
+
 .footer p {
     color: #FFF;
     /* margin: 0; */
 } 
 
-
-@media(max-width: 1139px) {
-
-   header a{
-      font-size: 14px;
-      /* font-size: 16px; */
-      padding-top: 10px;
-      /* padding-bottom: 10px;  */
-      padding-left: 10px;
-      padding-right: 10px;
-   }
-   header a:hover {
-      color: #c87819;
-      font-size: 14px;
-   }
-}
