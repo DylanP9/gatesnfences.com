@@ -48,11 +48,14 @@ header a:hover {
 
 /* Footer */
 
- .footer {
-    /* margin-top: 10%; */
-    /* padding-bottom: 3%; */
-    text-align: center;
-    background-color:#000317;
+ footer {
+   background-color: #000317;
+   padding: 20px;
+   text-align: center;
+   font-size: 14px;
+   color: #ffffff;
+   /* position: relative; */
+   margin-top: auto;
 }
 
 .footerOther {
@@ -64,7 +67,7 @@ header a:hover {
  }
  
 
-.footer p {
+footer p {
     color: #FFF;
     /* margin: 0; */
 } 
