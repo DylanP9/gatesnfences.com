@@ -4,7 +4,7 @@ header {
     background: #000317;
     display: flex;
     justify-content: space-between;
-    
+    height: 100px;
 }
 
 header ul {
@@ -66,12 +66,7 @@ header a:hover {
    background-color: #000317;
  }
  
-
 footer p {
     color: #FFF;
     /* margin: 0; */
-} 
-
-
-
-
+}

@@ -1,13 +1,11 @@
 body {
   margin: 0;
   background: #000317;
-
   }
  
 .background{
   background: linear-gradient(to bottom,#ffffff, #fff7e4);
 }
- 
 
 .sentence1 {
   font-family: Inter;
@@ -17,7 +15,7 @@ body {
   color: white;
   margin-top: 8px;
   }
-
+  
   .imagesList {
     padding-bottom: 4%;
     padding-left: 3%;
@@ -26,7 +24,6 @@ body {
     grid-template-columns: repeat(3, 1fr); /* Change the number of columns here */
     grid-gap: 20px;
   }
-  
   
   .imagesBlock {
     position: relative;
@@ -73,8 +70,8 @@ body {
     position: relative;
     margin-top: auto;
   }
+
   .button{
-    
     margin-bottom: 20px;
     border: none;
     color: black;
@@ -84,7 +81,4 @@ body {
     font-size: 30px;
     cursor: pointer;
     font-family: Inter, Arial, Helvetica, sans-serif;
-    
-    
-    
   }
