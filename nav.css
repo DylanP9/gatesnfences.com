@@ -61,7 +61,7 @@ body {
 /* Footer */
 
  footer {
-   background-color: #000317;
+   background-color: #000317; 
    /* padding: 20px; */
    text-align: center;
    font-size: 14px;
@@ -69,21 +69,21 @@ body {
    /* position: relative; */
    /* margin-top: 35px; */
 
-   position: fixed;
+   padding-top: 0.20%;
+   padding-bottom: 0.20%;
+
    bottom: 0;
    width: 100%;
-   
 }
 
 .footerOther {
    color: #FFF;
-   position: absolute;
    width: 100%;
    text-align: center;
    background-color: #000317;
  }
  
-footer p {
+footer a {
     color: #FFF;
-    /* margin: 0; */
+    text-decoration: none; 
 }

@@ -1,7 +1,7 @@
 
  
-.background{
-  background: linear-gradient(to bottom,#ffffff, #fff7e4);
+ .background{
+  background:white;
 }
  
  .sentence1 {
@@ -18,7 +18,7 @@
      padding-left: 3%;
      padding-right: 3%;
      display: grid;
-     grid-template-columns: repeat(3, 1fr); /* Change the number of columns here */
+     grid-template-columns: repeat(3, 1fr);
      grid-gap: 20px;
    }
    
@@ -57,28 +57,43 @@
      margin-top: 100px;
      padding: 30px;
      border-radius: 10px;
+     font-family: sans-serif;
    }
-   
-   /* .footer1 {
-      background-color: #000317;
-      padding: 20px;
-      text-align: center;
-      font-size: 14px;
-      color: #ffffff;
-      position: relative;
-      margin-top: auto;
-    } */
-.getQuoteButton {
-  font-weight: bold;
-  font-size: 11px;
-  font-family: Arial;
-  text-decoration: none;
-  background-color: #eee;
-  color: #333;
-  padding: 2px 6px;
-  border: 1px solid #ccc;
-  text-align: center;
+.imagesBlock:hover .image {
+  opacity: 0.3;
 }
+
+.imagesBlock:hover .middle {
+  opacity: 1;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: #000317;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 2.5%;
+}
+.text {
+  background-color: #000317;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.middle a{
+  text-decoration: none;
+  color: white;
+}
+
 
 
     
