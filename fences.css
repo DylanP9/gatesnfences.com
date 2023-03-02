@@ -1,8 +1,4 @@
-body {
-   margin: 0;
-   background: #000317;
 
-  }
  
 .background{
   background: linear-gradient(to bottom,#ffffff, #fff7e4);
@@ -72,5 +68,17 @@ body {
       position: relative;
       margin-top: auto;
     } */
+.getQuoteButton {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  text-decoration: none;
+  background-color: #eee;
+  color: #333;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
 
     

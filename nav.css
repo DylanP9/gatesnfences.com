@@ -1,23 +1,28 @@
+html, body {
+   height: 100%;
+}
+
 /* HEADER */
 
-header {
+.header {
     background: #000317;
     display: flex;
     justify-content: space-between;
     height: 100px;
+    
 }
 
-header ul {
+.header ul {
    list-style-type: none;
    margin-top: 1.8%;
    margin-right: 3%;
 }
 
-header li{
+.header li{
    display: inline-block;
 }
 
-header a{
+.header a{
    display: block;
    color: #ffdab2;
    font-size: 16px; 
@@ -29,7 +34,7 @@ header a{
    font-family:  Inter, Arial, Helvetica, sans-serif;
 }
 
-header a:hover {
+.header a:hover {
    color: #c87819;
    font-size: 17px;
 }
@@ -46,16 +51,28 @@ header a:hover {
    margin-right: 1%;
 }
 
+/* Body */
+
+body {
+   margin: 0;
+   background: #000317;
+   }
+
 /* Footer */
 
  footer {
    background-color: #000317;
-   padding: 20px;
+   /* padding: 20px; */
    text-align: center;
    font-size: 14px;
    color: #ffffff;
    /* position: relative; */
-   margin-top: auto;
+   /* margin-top: 35px; */
+
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   
 }
 
 .footerOther {
