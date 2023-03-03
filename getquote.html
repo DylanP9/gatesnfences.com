@@ -3,20 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Custom StyleSheet -->
-    <link rel="stylesheet" href="./getquote.css" />
-    <link rel="stylesheet" href="./nav.css" />
+
     <title>Gates 'n' Fences</title>
 
-	<style type="text/css">
-		@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Playfair+Display:ital,wght@0,900;1,900&display=swap");
-	  </style>
+    <link rel="stylesheet" href="./getquote.css" />
+    <link rel="stylesheet" href="./nav.css" />
 
-    <script src="title.js"></script>
   </head>
 
   <body>
-    <!-- <div class="header"> -->
       <header>
 		<a href="home.html">
         <img src="images/logo3" alt="logo" class="logo" />
@@ -30,21 +25,26 @@
         <li><a href="getquote.html" class="quote">Get Quote</a></li>
       </ul>
 	  </header>
-    <!-- </div> -->
 
-    <div class="container">
-      <form method="POST" action="form.php" id="contact-form">
+    <main>
+
+      <div class="container">
+      <form>
         <h2>Contact us</h2>
-        <p><label>First Name:</label> <input name="name" type="text" /></p>
-        <p>
-          <label>Email Address:</label>
-          <input style="cursor: pointer" name="email" type="text" />
-        </p>
-        <p><label>Message:</label> <textarea name="message"></textarea></p>
-
-        <p><input type="submit" value="Send" /></p>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="Send">
       </form>
-    </div>
+      </div>
+
+    </main>
   </body>
 
   <footer>
@@ -53,4 +53,8 @@
       Gates 'n' Fences
     </p>
   </footer>
+
+  <script src="title.js"></script>
+  <script src="emailAlert.js"></script>
+
 </html>

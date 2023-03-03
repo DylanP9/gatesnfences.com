@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Playfair+Display:ital,wght@0,900;1,900&display=swap");
+
 /* BODY */
 
 .picture {
@@ -9,23 +11,20 @@
 .review, .review2, .review3 {
     width: 33%;
     float: left;
-    /* margin: 0 auto; */
     text-align: center;
 }
 
 .review, .review2, .review3 p {
    color: white;
-   font-family: Inter, Arial, Helvetica, sans-serif;
+   font-family: Inter, sans-serif;
    font-size: 150%;
 
 }
 
 .tplogo, .stars{
    display: block;
-   /* height: auto; */
    width: 10%;
    margin: 0 auto;
-   /* text-align: center; */
    margin-bottom: 2%;
 }
 
@@ -38,18 +37,15 @@
 .picture-caption {
   position: absolute;
   top: 0;
-  /* left: 0; */
   width: 100%;
   background: rgba(255, 249, 238, 0.68);
-  /* font-family: Inter, sans-serif; */
   font-size: 30px;
-  /* color: #333; */
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 
   margin-top: 19%;
-  font-family: Inter, Arial, Helvetica, sans-serif ;
+  font-family: Inter, sans-serif ;
   color: #000317;
   box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
 
